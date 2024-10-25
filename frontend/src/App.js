@@ -1,12 +1,11 @@
 // App.js
 import React from 'react';
-import Dashboard from './components/LandingPage';
-import './App.css';
+import LandingPage from './components/LandingPage';
 
 function App() {
   return (
     <div className="app">
-      <Dashboard />
+      <LandingPage />
     </div>
   );
 }
