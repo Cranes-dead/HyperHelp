@@ -16,7 +16,7 @@ const LeftNavbar = () => {
         <button className="hamburger" onClick={toggleNavbar}>
           <FaBars />
         </button>
-        {isExpanded && <h2 className="logo-text">Company Name</h2>}
+        {isExpanded && <h2 className="logo-text">Hyper Help</h2>}
       </div>
       <ul className="nav-links">
         <li>

@@ -1,9 +1,20 @@
 import React from 'react';
-import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { 
-  ShoppingBag, 
-  Home, 
-  TrendingUp, 
+import VertexAIChatbot from './VertexAIChatbot';
+import {
+  LineChart,
+  Line,
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer
+} from 'recharts';
+import {
+  ShoppingBag,
+  Home,
+  TrendingUp,
   DollarSign,
   Package,
   Users,
@@ -22,8 +33,9 @@ const salesData = [
   { month: 'Jun', Purchase: 27000, Sales: 40000 },
   { month: 'Jul', Purchase: 55000, Sales: 48000 },
   { month: 'Aug', Purchase: 45000, Sales: 42000 },
-  { month: 'May', Purchase: 43000, Sales: 43000 },
-  { month: 'Jun', Purchase: 36000, Sales: 42000 },
+  { month: 'Sept', Purchase: 43000, Sales: 43000 },
+  { month: 'Oct', Purchase: 36000, Sales: 42000 },
+  { month: 'Nov', Purchase: 36000, Sales: 42000 }
 ];
 
 const orderData = [
@@ -175,9 +187,8 @@ const Dashboard = () => {
         </div>
       </div>
 
-      {/* Third Row */}
-      <div className="dashboard-row">
-        <div className="card sales-purchase">
+      <div className="dashboard-row flex">
+        <div className="card sales-purchase" style={{ flexBasis: '50%' }}>
           <div className="card-header">
             <h2>Sales & Purchase</h2>
             <div className="period-selector">
@@ -199,7 +210,7 @@ const Dashboard = () => {
           </div>
         </div>
 
-        <div className="card order-summary">
+        <div className="card order-summary" style={{ flexBasis: '35%' }}>
           <h2>Order Summary</h2>
           <div className="chart-container">
             <ResponsiveContainer width="100%" height={300}>
@@ -213,6 +224,7 @@ const Dashboard = () => {
               </LineChart>
             </ResponsiveContainer>
           </div>
+          <VertexAIChatbot />
         </div>
       </div>
     </div>

@@ -24,7 +24,7 @@ const Header = () => {
     <header className="header">
       {/* Center - Logo and Company Name */}
       <div className="logo">
-        <span className="company-name">Company Name</span>
+        <span className="company-name">Hyper Help</span>
       </div>
 
       {/* Right - Notification and Profile Icons */}
@@ -54,6 +54,8 @@ const Header = () => {
           />
         </div>
       </div>
+
+      
 
       {/* Modal for Notifications */}
       {isModalOpen && (
