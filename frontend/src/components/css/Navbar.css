@@ -1,0 +1,94 @@
+/* Navbar Container */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    box-sizing: border-box;
+    transition: width 0.3s ease;
+    z-index: 1000; /* Ensure navbar appears above the header */
+  }
+  
+  /* Collapsed and Expanded States */
+  .navbar.collapsed {
+    width: 60px;
+  }
+  
+  .navbar.expanded {
+    width: 220px;
+  }
+  
+  /* Navbar Header with Hamburger */
+  .navbar-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #374151; /* Dark gray */
+  }
+  
+  /* Logo Text (only visible when expanded) */
+  .logo-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1e40af;
+  }
+  
+  /* Nav Links */
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3  0px;
+  }
+  
+  .nav-links li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    color: #374151;
+    cursor: pointer;
+    padding: 8px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .nav-links li:hover {
+    color: #1e40af;
+  }
+  
+  .icon {
+    font-size: 18px;
+  }
+  
+  .nav-links li span {
+    display: inline-block;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .navbar.expanded .nav-links li span {
+    opacity: 1;
+  }
+  
+  /* Bottom Links */
+  .nav-links.bottom {
+    margin-top: auto;
+  }
+  
+  

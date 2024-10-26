@@ -1,0 +1,47 @@
+/* SettingsPage.css */
+.settings-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .settings-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .settings-section h2 {
+    margin-bottom: 15px;
+  }
+  
+  .settings-section label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .settings-section input[type="text"],
+  .settings-section input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .settings-section button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .settings-section button:hover {
+    background-color: #45a049;
+  }
+  
