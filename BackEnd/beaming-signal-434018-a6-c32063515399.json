@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "beaming-signal-434018-a6",
+  "private_key_id": "c3206351539914debb12d946b67cc6b24ca622eb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDCRZZ18l/11NhU\nqM572QIUueWA0mQwhf+ev3RczKsSFpvgYzyw+6ZLi5kyF9HGvYnsyPzk8Y5zKts6\n6oQolARGtPedOUuIzuw6zsUhv6FzHrmPrA/EJjOVsdNF24I00vZBoui0o4IK+0+O\nMWtYUAgJs0svW5Ik1y50wW3L3dpxVFOajOkHPff42yEaJGdU4YoNfR46d3LmvcA9\nuSZHJ2BrDfrWwQs9lrIpa5qVAX8BvAOAobukmAI2AE2J5YnlkIWcRr2RFolbsyLW\n8OwHTP2uDmG/T7/e4L+foBBL3wAO8Ynu/tpOMa0HC9O0zaoZJUPKc0NSDBz4akeM\nBt7EnLSXAgMBAAECggEAFVNCMuxKMFgO7ywgjmPB4LiPQtbVfKYY6zok8dLdrHyi\n27zI+ryFAqHuTRtkQaaorz9Y02DYvDemHQ+FNlcZKRHQZIfXjMr6D3KHHS9F77cd\ns3G1wVhYLUR55p8z6cyGj6nsVXflXIM9tmQiXm1alIYD6Mzqe/TK+rII9WoDApGI\nI8hjVZXAy5I2RhqVpiZOkJZvYdNqbDx/mnN5jln02zAjN4Ai97UEwWnG+LOX6KYi\nhWijmGWu8OQt2uXbF/mF+n/kT3ouzoT2ySI5FOB/+j1kHoBW6ILNIjH9YACcXcQ1\nNv2EE185pLR64vG+rKYWf02mT1S4V3lINpVecXqn4QKBgQDoMW04BZ3PNHUYb5Xc\nulv/mC/go25vc3Q/p7e1UrDbBGTHydxlZqFd+L1oH7MAg96CRZ3EYguA4AzAMf6H\nNY4NNtq7VWCr7A9I46FyNHbifBaU/YI1fyiUsrlq9Jvu6Ebtiygo1EI4S0cGyqX5\nu2rnktEWaZxACvWL706Y9dRHKQKBgQDWMM8obmgQPMh30rzPnN8wrjPVdVfciFIe\nnyXzjw/+IvFH2FI7zSMlanOua4lCWBJ8MZRn9P+uuNahYAauf7vxK+u7FdSHgicL\nDfalxIvGHsZAoFYjN7tiDAicBI/9NbvxCke+wOrLNUCUkXRIKJuS5dp8KCtEMF6c\nKN6GnSNVvwKBgGNWMgnTrU4mfSo1IwJJ4G4bJ/CNOwQHeuZ41ImIlQ0+dfdbjyT6\noXLYpf/T//rqb9l/+x03bQB32jynpuMlsF5K541Z23/yACAI8tsvQuVmfSrEwl4s\nxqnHRLhTahrt2NprvISrOqFm4z4umI+c9QGZuEZEbIqhpad2fEPIeEbxAoGBALUk\naD4YSVfaH+v+RIIMeFESMnIHIDw46cJN8+mshuj1ojqRftJmZZ/iDF1pQpbiJxfz\nUkAs2gNo/NNTg7MWAdsvutfo2WmUr/JQZ9S/iToPkrjbIJ3+JzH/XVSdIy0QwZZT\njGONgcRDkA9ViBLyjMfKLmGsExNDGPBWPAN6Z4S/AoGBAOLDxrww0cZcsrR/o99S\nIBoKmLyXju0jHsKnO2pEOcKNtCqCdCV99hMOAgxlJ8I9DyFfU7iKv35FpHGfUnfD\n6h3juOCrHbOFkRDegIF+mynqqFqpfXxBRYbSSyIrFfMePhRJ3bGifSNdtFzYU9Be\nXHmZL4j5LNt/XB+2SbFx8+o8\n-----END PRIVATE KEY-----\n",
+  "client_email": "python@beaming-signal-434018-a6.iam.gserviceaccount.com",
+  "client_id": "106860339398102870228",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/python%40beaming-signal-434018-a6.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
