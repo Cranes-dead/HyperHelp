@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import Dashboard from './ui/Dashboard';
+import Inventory from './ui/Inventory';
 import Header from './ui/Header';
 import Navbar from './ui/Navbar';
 
@@ -13,6 +13,7 @@ function LandingPage() {
     <div className="app">
       <Header/>
       <Navbar/>
+      <Inventory />
     </div>
   );
 }

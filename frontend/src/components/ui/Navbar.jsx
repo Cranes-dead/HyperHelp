@@ -1,4 +1,6 @@
+// LeftNavbar.js
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FaBars, FaHome, FaClipboardList, FaChartLine, FaTruck, FaBoxes, FaStore, FaCog, FaSignInAlt } from 'react-icons/fa';
 
 const LeftNavbar = () => {
@@ -18,38 +20,54 @@ const LeftNavbar = () => {
       </div>
       <ul className="nav-links">
         <li>
-          <FaHome className="icon" />
-          {isExpanded && <span>Dashboard</span>}
+          <Link to="/">
+            <FaHome className="icon" />
+            {isExpanded && <span>Dashboard</span>}
+          </Link>
         </li>
         <li>
-          <FaClipboardList className="icon" />
-          {isExpanded && <span>Inventory</span>}
+          <Link to="/inventory">
+            <FaClipboardList className="icon" />
+            {isExpanded && <span>Inventory</span>}
+          </Link>
         </li>
         <li>
-          <FaChartLine className="icon" />
-          {isExpanded && <span>Reports</span>}
+          <Link to="/reports">
+            <FaChartLine className="icon" />
+            {isExpanded && <span>Reports</span>}
+          </Link>
         </li>
         <li>
-          <FaTruck className="icon" />
-          {isExpanded && <span>Suppliers</span>}
+          <Link to="/suppliers">
+            <FaTruck className="icon" />
+            {isExpanded && <span>Suppliers</span>}
+          </Link>
         </li>
         <li>
-          <FaBoxes className="icon" />
-          {isExpanded && <span>Orders</span>}
+          <Link to="/orders">
+            <FaBoxes className="icon" />
+            {isExpanded && <span>Orders</span>}
+          </Link>
         </li>
         <li>
-          <FaStore className="icon" />
-          {isExpanded && <span>Manage Store</span>}
+          <Link to="/store">
+            <FaStore className="icon" />
+            {isExpanded && <span>Manage Store</span>}
+          </Link>
         </li>
       </ul>
       <ul className="nav-links bottom">
         <li>
-          <FaCog className="icon" />
-          {isExpanded && <span>Settings</span>}
+          <Link to="/settings">
+            <FaCog className="icon" />
+            {isExpanded && <span>Settings</span>}
+          </Link>
         </li>
         <li>
-          <FaSignInAlt className="icon" />
-          {isExpanded && <span>Log In</span>}
+          <Link to="/login">
+            <FaSignInAlt className="icon" />
+            {isExpanded && <span>Log In</span>}
+          </Link>
         </li>
       </ul>
     </div>

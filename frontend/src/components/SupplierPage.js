@@ -1,12 +1,20 @@
+// App.js
 import React from 'react';
+import Dashboard from './ui/Dashboard';
+import Header from './ui/Header';
+import Navbar from './ui/Navbar';
 
-const SupplierPage = () => {
+import './css/Header.css';
+import './css/Dashboard.css';
+import './css/Navbar.css';
+
+function LandingPage() {
   return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">Supplier Management</h1>
-      {/* Add your supplier content here */}
+    <div className="app">
+      <Header/>
+      <Navbar/>
     </div>
   );
-};
+}
 
-export default SupplierPage;
+export default LandingPage;

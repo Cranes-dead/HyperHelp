@@ -1,12 +1,20 @@
+// App.js
 import React from 'react';
+import Dashboard from './ui/Dashboard';
+import Header from './ui/Header';
+import Navbar from './ui/Navbar';
 
-const ReportsPage = () => {
+import './css/Header.css';
+import './css/Dashboard.css';
+import './css/Navbar.css';
+
+function LandingPage() {
   return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">Reports</h1>
-      {/* Add your reports content here */}
+    <div className="app">
+      <Header/>
+      <Navbar/>
     </div>
   );
-};
+}
 
-export default ReportsPage;
+export default LandingPage;
