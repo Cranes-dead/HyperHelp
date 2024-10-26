@@ -14,4 +14,4 @@ bucket = storage_client.get_bucket("mumbai-hacks")
 
 filename = "%s/%s" % ('', 'MyFile.csv')
 blob = bucket.blob(filename)
-blob.upload_from_filename('MumbaiHacks\\BackEnd\\test.csv')
+blob.upload_from_filename('Inventory_with_SARIMA_Predictions.csv')
