@@ -1,13 +1,15 @@
 // App.js
 import React from 'react';
-import LandingPage from './components/LandingPage';
+import Dashboard from './components/LandingPage';
+import './App.css';
 
 function App() {
   return (
     <div className="app">
-      <LandingPage />
+      <Dashboard />
     </div>
   );
 }
 
 export default App;
+

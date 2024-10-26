@@ -1,6 +1,25 @@
-import React from 'react';
+// Header.js
+import React, { useState } from 'react';
+import NotificationModal from './Modal';
 
 const Header = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  // Sample notifications data
+  const notifications = [
+    "You have a new message.",
+    "Your profile was updated.",
+    "New comment on your post.",
+  ];
+
+  const handleNotificationClick = () => {
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+
   return (
     <header className="header">
       {/* Center - Logo and Company Name */}
@@ -10,7 +29,7 @@ const Header = () => {
 
       {/* Right - Notification and Profile Icons */}
       <div className="icons">
-        <button className="icon-button">
+        <button className="icon-button" onClick={handleNotificationClick}>
           <svg
             className="icon"
             fill="none"
@@ -35,6 +54,14 @@ const Header = () => {
           />
         </div>
       </div>
+
+      {/* Modal for Notifications */}
+      {isModalOpen && (
+        <NotificationModal
+          notifications={notifications}
+          onClose={closeModal}
+        />
+      )}
     </header>
   );
 };

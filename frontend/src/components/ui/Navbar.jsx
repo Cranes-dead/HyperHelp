@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaBars, FaHome, FaClipboardList, FaChartLine, FaTruck, FaBoxes, FaStore, FaCog, FaSignOutAlt } from 'react-icons/fa';
+import { FaBars, FaHome, FaClipboardList, FaChartLine, FaTruck, FaBoxes, FaStore, FaCog, FaSignInAlt } from 'react-icons/fa';
 
 const LeftNavbar = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -48,8 +48,8 @@ const LeftNavbar = () => {
           {isExpanded && <span>Settings</span>}
         </li>
         <li>
-          <FaSignOutAlt className="icon" />
-          {isExpanded && <span>Log Out</span>}
+          <FaSignInAlt className="icon" />
+          {isExpanded && <span>Log In</span>}
         </li>
       </ul>
     </div>
